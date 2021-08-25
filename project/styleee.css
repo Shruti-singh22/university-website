@@ -1,0 +1,28 @@
+.about{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.about-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.about-col img{
+    width: 100%;
+}
+.layerr{
+    background:transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: 0.5s;
+}
+.layerr:hover{
+    background: rgba(253, 252, 252, 0.7);
+}

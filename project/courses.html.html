@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./images/logo.png" width="10%" alt="Logo"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()" aria-hidden="true"></i>
+                <ul>
+                    <li><a href="">HOME</a> </li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" aria-hidden="true"></i>
+        </nav>
+        <h1>OUR COURSES</h1>
+    
+    </section>
+    <!------Course------>
+    <section class="course">
+        <h1> Courses we offer </h1>
+        <p>
+            we offer courses in literature , science and arts.
+        </p>
+        <div class="row">
+            <div class="course-column">
+                <h3>
+                    Intermediate
+                </h3>
+                <p>
+                    this is just a ample of how the website will look.
+                </p>
+            </div>
+            <div class="course-column">
+                <h3>
+                    degree
+                </h3>
+                <p>
+                    this is just a ample of how the website will look.
+                </p>
+            </div>
+            <div class="course-column">
+                <h3>
+                    post graduation
+                </h3>
+                <p>
+                    this is just a ample of how the website will look.
+                </p>
+            </div>
+            
+           
+    
+        </div>
+    </section>
+    <!-----Facilities------>
+    <section class="facilities">
+        <h1>
+            OUR FACILITIES
+        </h1>
+        <p>Random text which needs to be edited </p>
+        <div class="row">
+            <div class="facilities-column">
+                <img src="images/library1.jpg">
+                <h3>world class library</h3>
+                <p>
+                    description of the library.
+                </p>
+            </div>
+            <div class="facilities-column">
+               <img src="images/basketball.jpg">
+               <h3>largest play ground</h3>
+               <p>
+                  description of largest play ground.
+               </p>
+           </div>
+           <div class="facilities-column">
+               <img src="images/cafeteria.jpg">
+               <h3>hygienic cafeteria</h3>
+               <p>
+                   description of the cafeteria.
+               </p>
+           </div>
+        </div>
+   
+    </section>    
+   
+ <!----footer---->
+ <section class="footer">
+     <h4>About Us</h4>
+     <p>information about the university</p>
+     <div class="icons">
+         <i class="fab fab-facebook"></i>
+         <i class="fa fa-instagran"></i>
+         <i class="fab fab-twitter"></i>
+         <i class="fab fab-linkedin"></i>
+
+     </div>
+ </section>
+
+
+
+    <!----javascript for toggle menu---->
+    <script>
+        var navLinks= document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
+
